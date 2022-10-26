@@ -15,3 +15,23 @@ JLCPCB and PCBWay
 
 ## Bill of Materials
 
+### Bill of Materials for ATTiny Programmer V1.0
+
+Description | Quantity
+------------ | -------------
+Ardduino Nano (Original version) |1
+LED in SMT 0805 package | 1
+1k Resistor in 0805 package | 1
+10uf 5v or more radial lead Electrolytic Capacitor| 1
+6x6mm momentary tactile through-hole switch | 1
+15-pin 0.1" headers (Optional) | 2
+18-Pin ZIF IDP Socket | 1
+8-pin 0.1" PCB mount ribbon cable header (Optional)| 1
+
+Note, the 15-pin 0.1" headers are not needed if you solder the Nano directly to the PCB (Not reccomended)
+
+The 8-pin 0.1" PCB mount ribbon cable header is only needed if you wish to connect a programming clip to allow
+SMD or through-hole devices to be programmed in-situ
+
+## Gerber Files
+The Gerber files can be downloded here:
