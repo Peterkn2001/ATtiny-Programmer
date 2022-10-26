@@ -41,3 +41,32 @@ SMD or through-hole devices to be programmed in-situ
 
 ## Gerber Files
 The Gerber files can be downloded here:
+
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+
+## Additional Information
+
+### Arduino Nano
+In my experience, only the original Arduino Nano will work with this hardware and the sketch below. The Nano Pro Micro doesn't work.
+
+### Sketch for the Nano
+The Nano needs to be flashed with ths sketch (written by Randall Bohn)...
+
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+
+### Installing the ATtiny Core
+Follow the instructions here to install the ATtiny core and board definitions:
+https://github.com/damellis/attiny/
+
+Other ATtiny cores m,ay also work, bit this is the one that I use.
+
+### Flashing the ATtiny firmware
+Begin by choosing "Arduino as ISP" in the Programmer menu of the Arduino IDE...
+
+************************************************************************
+
+With the ATtiny in the ZIF socket and the correct Board and Procesor selected in the IDE, plug the programmer in and select the correct serial port in the IDE.
+Select "Burn Bootloader" in the IDE's Tools menu. This will burn a bootloader to the AT tiny to enable a sketch to be uploaded.
+
+Once this is done your ATtiny is ready for you to upload your sketch.
+
