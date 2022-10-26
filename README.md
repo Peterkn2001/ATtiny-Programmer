@@ -28,7 +28,8 @@ LED in SMT 0805 package | 1
 15-pin 0.1" headers (Optional) | 2
 8-pin 0.1" PCB mount ribbon cable header (Optional)| 1
 
-Notes
+### Notes
+
 Only 8 pins are used on the ZIF Socket.
 These lever-operated Zero Insertion Force sockets are commonly only available in 14 pins or greater,
 with the 16 pin version being very common. A 14 pin version coud be substituted if desired.
