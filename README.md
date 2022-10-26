@@ -40,9 +40,11 @@ The 8-pin 0.1" PCB mount ribbon cable header is only needed if you wish to conne
 SMD or through-hole devices to be programmed in-situ
 
 ## Gerber Files
-The Gerber files can be downloded here:
+The Gerber file can be downloded here:
 
-XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+https://github.com/Peterkn2001/ATtiny-Programmer/blob/main/Gerber/Gerber_ATtiny%20Programmer%20v1_0.zip
+
+Note that this is a .zip file and doesn not need to be un-zipped. Simply upload it to your PCB supplier.
 
 ## Additional Information
 
@@ -63,7 +65,7 @@ Other ATtiny cores m,ay also work, bit this is the one that I use.
 ### Flashing the ATtiny firmware
 Begin by choosing "Arduino as ISP" in the Programmer menu of the Arduino IDE...
 
-************************************************************************
+https://github.com/Peterkn2001/ATtiny-Programmer/blob/main/images/Arduino_IDE_Settings.jpg
 
 With the ATtiny in the ZIF socket and the correct Board and Procesor selected in the IDE, plug the programmer in and select the correct serial port in the IDE.
 Select "Burn Bootloader" in the IDE's Tools menu. This will burn a bootloader to the AT tiny to enable a sketch to be uploaded.
