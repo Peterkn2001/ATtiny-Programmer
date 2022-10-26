@@ -54,7 +54,7 @@ In my experience, only the original Arduino Nano will work with this hardware an
 ### Sketch for the Nano
 The Nano needs to be flashed with ths sketch (written by Randall Bohn)...
 
-XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+https://github.com/Peterkn2001/ATtiny-Programmer/blob/main/ArduinoISP/ArduinoISP.ino
 
 ### Installing the ATtiny Core
 Follow the instructions here to install the ATtiny core and board definitions:
