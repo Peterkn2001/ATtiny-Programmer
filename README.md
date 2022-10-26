@@ -44,7 +44,7 @@ The Gerber file can be downloded here:
 
 https://github.com/Peterkn2001/ATtiny-Programmer/blob/main/Gerber/Gerber_ATtiny%20Programmer%20v1_0.zip
 
-Note that this is a .zip file and doesn not need to be un-zipped. Simply upload it to your PCB supplier.
+Note that this is a .zip file and does not need to be un-zipped. Simply upload it to your PCB supplier as a .zip file.
 
 ## Additional Information
 
@@ -60,7 +60,7 @@ XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 Follow the instructions here to install the ATtiny core and board definitions:
 https://github.com/damellis/attiny/
 
-Other ATtiny cores m,ay also work, bit this is the one that I use.
+Other ATtiny cores may also work, but this is the one that I use.
 
 ### Flashing the ATtiny firmware
 Begin by choosing "Arduino as ISP" in the Programmer menu of the Arduino IDE...
