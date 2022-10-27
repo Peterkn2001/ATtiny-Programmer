@@ -58,6 +58,7 @@ https://github.com/Peterkn2001/ATtiny-Programmer/blob/main/ArduinoISP/ArduinoISP
 
 ### Installing the ATtiny Core
 Follow the instructions here to install the ATtiny core and board definitions:
+
 https://github.com/damellis/attiny/
 
 Other ATtiny cores may also work, but this is the one that I use.
@@ -70,5 +71,5 @@ Begin by choosing "Arduino as ISP" in the Programmer menu of the Arduino IDE...
 With the ATtiny in the ZIF socket and the correct Board and Procesor selected in the IDE, plug the programmer in and select the correct serial port in the IDE.
 Select "Burn Bootloader" in the IDE's Tools menu. This will burn a bootloader to the AT tiny to enable a sketch to be uploaded.
 
-Once this is done your ATtiny is ready for you to upload your sketch.
+Once this is done your ATtiny is ready for you to upload your sketch using the Sketch > Upload Using Programmer CTRL+Shift_U command in the IDE.
 
