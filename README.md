@@ -41,7 +41,7 @@ The 15-pin 0.1" headers are not needed if you solder the Nano directly to the PC
 The 8-pin 0.1" PCB mount ribbon cable header is only needed if you wish to connect a programming clip to allow
 SMD or through-hole devices to be programmed in-situ
 
-## Gerber Files
+## Gerber File
 The Gerber file can be downloded here:
 
 https://github.com/Peterkn2001/ATtiny-Programmer/blob/main/Gerber/Gerber_ATtiny%20Programmer%20v1_0.zip
