@@ -30,9 +30,9 @@ LED in SMT 0805 package | 1
 
 ### Notes
 
-Only 8 pins are used on the ZIF Socket.
-These lever-operated Zero Insertion Force sockets are commonly only available in 14 pins or greater,
-with the 16 pin version being very common. A 14 pin version coud be substituted if desired.
+Only 8 pins are used on the ZIF Socket, but these sockets are commonly only available in 14 pins or greater.
+A 16 pin socket is used to allow an SPO8 adapter to be used without fouling the ZIF lever,
+but a 14 pin version (or smaller if avaialble) could be substituted if this is not a consideration.
 
 The 15-pin 0.1" headers are not needed if you solder the Nano directly to the PCB (Not reccomended)
 
