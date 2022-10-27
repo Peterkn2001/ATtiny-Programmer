@@ -32,7 +32,8 @@ LED in SMT 0805 package | 1
 
 Only 8 pins are used on the ZIF Socket, but these sockets are commonly only available in 14 pins or greater.
 A 16 pin socket is used to allow an SOP8 adapter to be used without fouling the ZIF lever,
-but a 14 pin version (or smaller if avaialble) could be substituted if this is not a consideration.
+but a 14 pin version (or smaller if avaialble) could be substituted if this is not a consideration
+
 ![ZIF Socket](https://github.com/Peterkn2001/ATtiny-Programmer/blob/main/images/ZIF_Socket.jpg)
 
 The 15-pin 0.1" headers are not needed if you solder the Nano directly to the PCB (Not reccomended)
