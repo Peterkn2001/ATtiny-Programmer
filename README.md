@@ -70,8 +70,8 @@ Begin by choosing "Arduino as ISP" in the Tools > Programmer menu of the Arduino
 
 ![PCB Front](https://github.com/Peterkn2001/ATtiny-Programmer/blob/main/images/Arduino_IDE_Settings.jpg)
 
-With the ATtiny in the ZIF socket (orientated with Pin 1 next to the white dot on the PCB - near the Activioty LED) and the correct Board and Procesor selected in the IDE, plug the programmer in and select the correct serial port in the IDE.
+With the ATtiny in the ZIF socket (orientated with Pin 1 next to the white dot on the PCB - near the Activity LED) and the correct Board and Procesor selected in the IDE, plug the programmer in and select the correct serial port in the IDE.
 Select "Burn Bootloader" in the IDE's Tools menu. This will burn a bootloader to the AT tiny to enable a sketch to be uploaded.
 
-Once this is done your ATtiny is ready for you to upload your sketch using the Sketch > Upload Using Programmer CTRL+Shift_U command in the IDE.
+Once this is done your ATtiny is ready for you to upload your sketch using the Sketch > Upload Using Programmer CTRL+Shift+U command in the IDE.
 
