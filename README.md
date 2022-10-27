@@ -2,7 +2,7 @@
 Custom PCB design to simplify using an Arduino Nano to program ATtiny 25/45/85 chips 
 
 ## Overview
-This is a PCB designed to simplyfy programming ATtiny 25/45/85 chips using an Arduino Namo.
+This is a PCB designed to simplify programming ATtiny 25/45/85 chips using an Arduino Namo.
 This repository contains the Gerber files to allow you to order your own PCBs from suppliers such as
 JLCPCB and PCBWay
 
@@ -19,7 +19,7 @@ JLCPCB and PCBWay
 
 Description | Quantity
 ------------ | -------------
-Ardduino Nano (Original version) | 1
+Arduino Nano (Original version) | 1
 LED in SMT 0805 package | 1
 1k Resistor in SMT 0805 package | 1
 10uf 16v radial lead electrolytic capacitor| 1
@@ -32,17 +32,17 @@ LED in SMT 0805 package | 1
 
 Only 8 pins are used on the ZIF Socket, but these sockets are commonly only available in 14 pins or greater.
 A 16 pin socket is used to allow an SOP8 adapter to be used without fouling the ZIF lever,
-but a 14 pin version (or smaller if avaialble) could be substituted if this is not a consideration
+but a 14 pin version (or smaller if available) could be substituted if this is not a consideration
 
 ![ZIF Socket](https://github.com/Peterkn2001/ATtiny-Programmer/blob/main/images/ZIF_Socket.jpg)
 
-The 15-pin 0.1" headers are not needed if you solder the Nano directly to the PCB (Not reccomended)
+The 15-pin 0.1" headers are not needed if you solder the Nano directly to the PCB (Not recommended)
 
 The 8-pin 0.1" PCB mount ribbon cable header is only needed if you wish to connect a programming clip to allow
 SMD or through-hole devices to be programmed in-situ
 
 ## Gerber File
-The Gerber file can be downloded here:
+The Gerber file can be downloaded here:
 
 https://github.com/Peterkn2001/ATtiny-Programmer/blob/main/Gerber/Gerber_ATtiny%20Programmer%20v1_0.zip
 
@@ -54,7 +54,7 @@ Note that this is a .zip file and does not need to be un-zipped. Simply upload i
 In my experience, only the original Arduino Nano will work with this hardware and the sketch below. The Nano Pro Micro doesn't work.
 
 ### Sketch for the Nano
-The Nano needs to be flashed with ths sketch (written by Randall Bohn)...
+The Nano needs to be flashed with this sketch (written by Randall Bohn)...
 
 https://github.com/Peterkn2001/ATtiny-Programmer/blob/main/ArduinoISP/ArduinoISP.ino
 
@@ -70,7 +70,7 @@ Begin by choosing "Arduino as ISP" in the Tools > Programmer menu of the Arduino
 
 ![PCB Front](https://github.com/Peterkn2001/ATtiny-Programmer/blob/main/images/Arduino_IDE_Settings.jpg)
 
-With the ATtiny in the ZIF socket (orientated with Pin 1 next to the white dot on the PCB - near the Activity LED) and the correct Board and Procesor selected in the IDE, plug the programmer in and select the correct serial port in the IDE.
+With the ATtiny in the ZIF socket (orientated with Pin 1 next to the white dot on the PCB - near the Activity LED) and the correct Board and Processor selected in the IDE, plug the programmer in and select the correct serial port in the IDE.
 Select "Burn Bootloader" in the IDE's Tools menu. This will burn a bootloader to the AT tiny to enable a sketch to be uploaded.
 
 Once this is done your ATtiny is ready for you to upload your sketch using the Sketch > Upload Using Programmer CTRL+Shift+U command in the IDE.
