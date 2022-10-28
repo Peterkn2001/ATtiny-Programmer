@@ -18,7 +18,7 @@ JLCPCB and PCBWay
 ### Bill of Materials for ATTiny Programmer V1.0
 
 Description | Quantity
------------- | -------------
+:--- | :---:
 Arduino Nano (Original version) | 1
 LED in SMT 0805 package | 1
 1k Resistor in SMT 0805 package | 1
