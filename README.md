@@ -11,7 +11,7 @@ JLCPCB and PCBWay
 
 ![PCB Back](https://github.com/Peterkn2001/ATtiny-Programmer/blob/main/images/ATtiny_Programmer_PCB_back.jpg)
 
-![Completed PCB](https://github.com/Peterkn2001/ATtiny-Programmer/blob/main/images/ATtiny_Programmer_PCB_Complete.jpg)
+![Completed PCB](https://github.com/Peterkn2001/ATtiny-Programmer/blob/main/images/Programmer.jpg)
 
 ## Bill of Materials
 
